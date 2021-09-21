@@ -40,7 +40,7 @@ nav ul li {
     margin-right: 2rem
 }
 
-p, #mzd-portfolio {
+p, #mzd-portfolio, #mzd-contributions {
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -61,11 +61,13 @@ footer p {
     margin-right: 2rem
 }
 
-#mzd-portfolio {
+#mzd-portfolio, 
+#mzd-contributions {
     padding: 0
 }
 
-#mzd-portfolio li {
+#mzd-portfolio li,
+#mzd-contributions li {
     list-style-type: none;
     padding-bottom: 15px
 }
